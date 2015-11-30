@@ -1,0 +1,11 @@
+#include <stdio.h>
+    
+int main() {
+    
+int a,K; // comando que representa uma variavel K
+scanf("%d",&K); // comando que armazena a variavel
+for(a=1;a<=10;a++) // comando for para o looping
+printf("%d x %d = %d\n",a,K,a*K);
+   
+return 0;
+}
