@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+    
+int k; // comando que repesenta a variavel a
+scanf("%d", &k); // comando que armazena a variavel
+while(k != 2002){ // comando que faz repetir um  trecho quando a condicao for verdadeira
+printf("Senha Invalida\n");
+scanf("%d",&k);
+}
+if(k == 2002) // comando que executa todo o codigo, se o resultado for verdadeiro
+printf("Acesso Permitido\n");
+   
+    return 0;
+}
